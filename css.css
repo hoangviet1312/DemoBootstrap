@@ -1,0 +1,123 @@
+body {
+    font-size: small;
+}
+
+.banner {
+    text-align: left;
+    padding: 10px;
+    height: 280px;
+    /*background-image: url("https://demo.codegym.vn/web/codegym-bootstrap-layout/images/banner.jpg");*/
+}
+
+.slide1 {
+    background-image: url("https://demo.codegym.vn/web/codegym-bootstrap-layout/images/banner.jpg");
+}
+
+.slide2 {
+    background-image: url("https://www.ashbycomputers.co.uk/wp-content/uploads/2017/06/banner_it-support-1.jpg");
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.col-lg-3 {
+    background: pink;
+    text-align: center;
+    padding: 10px;
+    border: black solid 1px;
+}
+
+#button {
+    float: left;
+}
+
+#button ul {
+    list-style: none;
+    text-align: center;
+}
+
+#button ul li {
+    display: inline-table;
+    width: 180px;
+    height: 20px;
+    line-height: 40px;
+    border: white 1px solid;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    background-color: #007BFF;
+
+}
+
+#button ul li:hover {
+    background: #F88A0C;
+}
+
+#button ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.col-md-3 {
+    background-color: #404040;
+    padding-top: 30px;
+}
+
+.col-md-9 {
+    background-color: #404040;
+}
+
+.row1 {
+    height: 130px;
+    color: #E9ECEF;
+}
+
+.text1 {
+    padding-top: 15px;
+    font-size: 0.5cm;
+    float: left;
+}
+
+.text2 {
+    text-align: center;
+    padding: 15px;
+    font-size: small;
+    /*// height: 280px;*/
+}
+
+.text3 {
+    text-align: center;
+    padding: 15px;
+    font-size: small;
+}
+
+.text4 {
+    text-align: center;
+    padding: 15px;
+    font-size: small;
+}
+
+.picture .size {
+    width: 100%;
+    height: 100%;
+}
